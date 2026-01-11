@@ -1,0 +1,99 @@
+/* Background */
+body {
+    background: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    color: white;
+}
+
+/* Glass Card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    padding: 30px;
+}
+
+/* Heading */
+.quiz-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Options */
+.option {
+    background: rgba(255,255,255,0.05);
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.option:hover {
+    background: rgba(255,255,255,0.2);
+    transform: scale(1.03);
+}
+
+.option input {
+    margin-right: 12px;
+}
+
+/* Buttons */
+button {
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.next-btn {
+    background: linear-gradient(135deg, #ff0080, #ff7eb3);
+    color: white;
+}
+
+.next-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.prev-btn {
+    background: #555;
+    color: white;
+    margin-right: 10px;
+}
+
+.prev-btn:hover {
+    background: #777;
+    transform: scale(1.05);
+}
+
+.cancel-btn {
+    background: #ff3b3b;
+    color: white;
+}
+
+.cancel-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.submit-btn {
+    background: #28a745;
+    color: white;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+/* Footer / Button Container */
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
